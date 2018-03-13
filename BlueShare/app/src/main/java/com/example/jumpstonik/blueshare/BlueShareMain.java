@@ -22,5 +22,13 @@ public class BlueShareMain extends AppCompatActivity {
                 startActivity(blueshareconnection);
             }
         });
+        btnGoToShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent bluesharecollectandsend = new Intent(BlueShareMain.this, BlueShareCollectAndSend.class);
+                startActivity(bluesharecollectandsend);
+            }
+        });
     }
+
 }

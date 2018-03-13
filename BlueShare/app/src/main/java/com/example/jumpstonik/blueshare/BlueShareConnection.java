@@ -150,6 +150,7 @@ public class BlueShareConnection extends Activity implements AdapterView.OnItemC
             }
         }
     };
+    /**
     @Override
     protected void  onDestroy(){
         Log.d(TAG, "onDestroy called");
@@ -159,7 +160,7 @@ public class BlueShareConnection extends Activity implements AdapterView.OnItemC
         unregisterReceiver(mBroadcastReceiver3);
         unregisterReceiver(mBroadcastReceiver4);
     }
-
+    */
     public void enableDisableBT(View view){
         if (mBluetooth == null){
             Log.d(TAG, "enableDisableBT: no es compatible el BT");

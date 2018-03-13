@@ -37,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnDescubrir"
         tools:ignore="MissingConstraints,MissingConstraints android:layout_height="
+        android:paddingTop="100dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="75dp" />
 
